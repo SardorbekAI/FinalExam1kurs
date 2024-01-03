@@ -1,0 +1,240 @@
+/* For Loptops */
+@media only screen and (max-width: 1400px) {
+  .nav_bottomRight img {
+    width: 400px;
+  }
+  .menuName75 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .tarifName27 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px; /* 111.111% */
+    letter-spacing: 0.36px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .pi18 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 0.24px;
+  }
+  .btn32 {
+    font-size: 15px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 12px;
+    background: #3671e9;
+  }
+  .container {
+    margin: 0 90px;
+  }
+  .definitions_card {
+    padding: 18px;
+  }
+  .bronza_btn {
+    width: 100%;
+    left: 0%;
+    bottom: 0px;
+    font-size: 16px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 9px;
+    background: #3671e9;
+  }
+  .subscribeCard {
+    width: 90%;
+  }
+  .footTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 2;
+    padding: 25px 0;
+    gap: 50px;
+  }
+  .contacts {
+    margin-top: 50px;
+  }
+  .con_img {
+    display: none;
+  }
+}
+/* For Tablet */
+@media only screen and (max-width: 1000px) {
+  .nav_ul {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    background-color: cornflowerblue;
+    padding: 20px 30px;
+    border-radius: 0 0 0 8px;
+    z-index: 2;
+  }
+  .resBtn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    z-index: 7;
+    right: 10px;
+    font-size: 18px;
+    color: black;
+    padding: 7px 12px;
+    border-radius: 50%;
+    border: none;
+  }
+  .resBtn:hover {
+    cursor: pointer;
+    background-color: #6c97ee;
+    color: white;
+    border: 1px solid rgb(54, 54, 54);
+  }
+  .d_none {
+    display: none;
+  }
+  .res1 {
+    margin-bottom: -50px;
+  }
+  .d_block {
+    display: block;
+  }
+  .resUl li {
+    margin-bottom: 30px;
+  }
+  .bronza {
+    gap: 20px;
+  }
+  .xiz_card h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 46.875% */
+  }
+  .xiz_card p {
+    padding: 16px 14px;
+  }
+  .contacts {
+    margin-top: 20px;
+  }
+}
+/* For Mobile */
+@media only screen and (max-width: 850px) {
+  .menuName75 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .nav_bottomRight img {
+    display: none;
+  }
+
+  .tem1 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .container {
+    margin: 0 30px;
+  }
+  .definitions_card {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .bronza {
+    display: block;
+  }
+  .bronza_btn {
+    width: 100%;
+    left: 0%;
+    bottom: 0px;
+    font-size: 14px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 9px;
+    background: #3671e9;
+  }
+  .subEmail {
+    width: 90%;
+    height: 50px;
+  }
+  .subBtn {
+    top: 10%;
+    right: 6%;
+    padding: 12.5px 44px;
+  }
+  .footTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2;
+    padding: 25px 0;
+  }
+  .xiz_card h1 {
+    font-size: 20px;
+    line-height: 18px; /* 46.875% */
+  }
+  .xiz_card p {
+    padding: 12px 10px;
+  }
+  .xiz_card {
+    padding: 8px 8px 8px 10px;
+  }
+  .contacts {
+    padding-top: 20px;
+  }
+  .conBottom {
+    padding: 30px 40px;
+  }
+  .email {
+    width: 95%;
+    height: 64px;
+  }
+  .area {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .menuName75 {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .container {
+    margin: 0 15px;
+  }
+  .subEmail {
+    width: 90%;
+    height: 50px;
+  }
+  .subBtn {
+    top: 10%;
+    right: 6%;
+    padding: 12.5px 44px;
+  }
+
+  .footTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2;
+    padding: 25px 0;
+  }
+  .subscribeCard {
+    width: 100%;
+    padding: 15px 0 15px 0;
+  }
+  .subEmail {
+    width: 90%;
+    height: 50px;
+  }
+  .footTop {
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 2;
+    padding: 0;
+  }
+  .xiz_card p {
+    width: 100px;
+  }
+}

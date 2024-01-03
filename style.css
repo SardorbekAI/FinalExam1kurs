@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+/* ======Global CSS Code========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: #5cff58;
+}
+.menuName75 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.tarifName27 {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.36px;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.pi18 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.24px;
+}
+.btn32 {
+  font-size: 22px;
+  padding: 11px 26px;
+  border: none;
+  border-radius: 12px;
+  background: #3671e9;
+}
+.btn32:hover {
+  cursor: pointer;
+  background: #1e52ba;
+}
+.container {
+  margin: 0 140px;
+}
+/* ======Global CSS Code End========== */
+/* ========Tematik=========== */
+.tematik {
+  background-image: url(./src/Rectangle\ \(2\).png);
+}
+nav {
+  padding: 7px 0;
+  background-color: #2a5de0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 170px;
+}
+.nav_ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+.resBtn {
+  display: none;
+}
+.nav_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 37px 0;
+}
+.nav_bottomLeft {
+  position: relative;
+  width: 40%;
+}
+.tem1 {
+  margin-top: 70px;
+}
+.xiz1 {
+  position: absolute;
+  bottom: 0;
+}
+.nav_bottomRight img {
+  width: 600px;
+}
+/* ========Tematik End=========== */
+/* =========Definitions========== */
+.definitions {
+  margin-top: 20px;
+}
+.definitions_text {
+  text-align: center;
+  font-size: 42px;
+}
+.bronza {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  gap: 80px;
+}
+.definitions_card {
+  width: 400px;
+  /* height: 430px; */
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.27);
+  padding: 26px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8.5px);
+}
+.bronza_pi {
+  margin-bottom: 59px;
+}
+.bronza_btn {
+  position: absolute;
+  left: 21%;
+  bottom: 20px;
+  font-size: 16px;
+  padding: 9px 16px;
+  border: none;
+  border-radius: 9px;
+  background: #3671e9;
+}
+.bronza_btn:hover {
+  cursor: pointer;
+  background: #1a4eb4;
+}
+
+/* =========Definitions End========== */
+
+/*============Subscribe============ */
+.subscribe {
+  padding-bottom: 60px;
+}
+.subscribeCard {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 30px 0 35px 0;
+  border-radius: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.03) -11.04%,
+    rgba(255, 255, 255, 0.02) 104.89%
+  );
+
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+}
+.subscribeCard h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.subEmail {
+  width: 70%;
+  height: 60px;
+  border: none;
+  outline: none;
+  flex-shrink: 0;
+  text-indent: 44px;
+  border-radius: 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+}
+.subForm {
+  position: relative;
+}
+.subBtn {
+  position: absolute;
+  top: 10%;
+  right: 16%;
+  border-radius: 70px;
+  padding: 16px 44px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.subBtn:hover {
+  background: linear-gradient(90deg, #0f4ed6 0.36%, #bf31d4 201.02%);
+}
+/*============Subscribe End============ */
+/* ===============Footer=============== */
+footer {
+  background: rgba(31, 14, 223, 0.15);
+}
+.footTop {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  padding: 25px 0;
+}
+.footTop h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.footLogo {
+  font-size: 42px !important;
+  width: 200px;
+  line-height: 1;
+  font-weight: 400;
+}
+svg {
+  cursor: pointer;
+}
+.footLine {
+  height: 1.5px;
+  opacity: 0.2;
+  background: #969696;
+}
+.footBottom {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* ===============Footer End=============== */
