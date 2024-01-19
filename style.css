@@ -57,7 +57,7 @@ a:hover {
 /* ======Global CSS Code End========== */
 /* ========Tematik=========== */
 .tematik {
-  background-image: url(./src/Rectangle\ \(2\).png);
+  background-image: url(./src/Rectangle\ \(2\).webp);
 }
 nav {
   padding: 7px 0;
@@ -186,10 +186,10 @@ nav {
 }
 .subBtn {
   position: absolute;
-  top: 8%;
+  top: 10%;
   right: 16%;
   border-radius: 70px;
-  padding: 16px 44px;
+  padding: 14px 44px;
   opacity: 0.9;
   background: linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%);
   cursor: pointer;
